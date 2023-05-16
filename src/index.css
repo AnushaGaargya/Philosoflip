@@ -1,13 +1,126 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* for vertical alignment */
+html, body{
+  height: 110%;
 }
+
+/* these styles of body will only align horizontally. for vertical alignment, 
+use the above html,body height */
+body{
+
+  font-family: 'Deutsch Gothic', arial;
+  font-size: 20px;
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */ 
+  /* background-color: rgb(234, 199, 41); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-Image: url("/Users/anusha/Desktop/Projects//fun-memory-game/public/img/cover1.png")
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 0.5em; 
+  color:   rgb(240, 237, 227)
+}
+.container{
+  height: 700px;
+  width: 700px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 0.5em;
+
+}
+.card{
+   /* height: auto;
+   width: auto; */
+   /* max-width: 350px;
+   max-height: 350px; */
+   width: 150px;
+   height: 150px;
+   background-color: rgb(66, 64, 64);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 5px;
+   transform: rotateY(180deg);
+   animation: 2s hideCard linear;
+   transition: transform 0.5s;
+}
+
+@keyframes hideCard {
+  0%, 70%{
+    transform: rotateY(0);
+  }
+  100%{
+    transform: rotateY(180deg);
+  }
+}
+
+.card img{
+  /* height: auto;
+  width: auto; */
+  max-width: 120px;
+  max-height: 120px;
+  transition: transform 0.5s;
+  transform: scale(0);
+  animation: 2s hideImage linear;
+  
+}
+
+@keyframes hideImage {
+  0%, 70%{
+    transform: scale(1);
+  }
+  100%{
+    transform: scale(0);
+  }
+  
+}
+
+.card.active{
+  transform: rotateY(0);
+}
+
+.card.correct {
+  background-color: green;
+  border: solid 5px yellowgreen;
+}
+
+.card.wrong{
+  background-color: red;
+  
+}
+ 
+.card.active img{
+  transform: scale(1);
+}
+
+  
+.cardactivecorrect{
+  /* background: rgba(233, 140, 0, 0.7); */
+  max-width: 120px;
+  max-height: 120px;
+  border: solid 5px green;
+ 
+
+}
+
+.cardactivewrong{
+  /* background: rgba(233, 140, 0, 0.7); */
+  max-width: 120px;
+  max-height: 120px;
+  border: solid 5px red;
+
+
+}
+
+
+
