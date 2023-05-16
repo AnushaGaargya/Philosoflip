@@ -14,8 +14,6 @@ body{
 
   font-family: 'Deutsch Gothic', arial;
   font-size: 20px;
-  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */ 
-  /* background-color: rgb(234, 199, 41); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,10 +37,6 @@ h1{
 
 }
 .card{
-   /* height: auto;
-   width: auto; */
-   /* max-width: 350px;
-   max-height: 350px; */
    width: 150px;
    height: 150px;
    background-color: rgb(66, 64, 64);
@@ -105,7 +99,7 @@ h1{
 
   
 .cardactivecorrect{
-  /* background: rgba(233, 140, 0, 0.7); */
+
   max-width: 120px;
   max-height: 120px;
   border: solid 5px green;
@@ -114,7 +108,7 @@ h1{
 }
 
 .cardactivewrong{
-  /* background: rgba(233, 140, 0, 0.7); */
+
   max-width: 120px;
   max-height: 120px;
   border: solid 5px red;

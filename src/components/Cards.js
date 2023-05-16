@@ -29,8 +29,6 @@ function Cards(){
     if(items[current].id == items[prev].id){
         items[current].stat = "correct"
         items[prev].stat = "correct"
-        // items[current].img = "crct_img"
-        // items[prev].img = "crct_img"
         setItems([...items])
         setPrev(-1)
     

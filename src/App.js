@@ -1,6 +1,5 @@
 import Cards from "./components/Cards";
-// import EmojiPicker from 'emoji-picker-react';
-
+import React from "react";
 function App() {
   return (
    
@@ -10,14 +9,6 @@ function App() {
        <Cards />
 
   </div>
-  
-
-
-
-
-
-
-
 
   );
 }
