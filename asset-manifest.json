@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/philosoflip/static/css/main.27edd7a6.css",
+    "main.css": "/philosoflip/static/css/main.5b1cdffd.css",
     "main.js": "/philosoflip/static/js/main.dd1689fb.js",
     "static/js/787.44100c22.chunk.js": "/philosoflip/static/js/787.44100c22.chunk.js",
-    "static/media/dio.png": "/philosoflip/static/media/dio.9e95118b44b315a17c17.png",
     "index.html": "/philosoflip/index.html",
-    "main.27edd7a6.css.map": "/philosoflip/static/css/main.27edd7a6.css.map",
+    "main.5b1cdffd.css.map": "/philosoflip/static/css/main.5b1cdffd.css.map",
     "main.dd1689fb.js.map": "/philosoflip/static/js/main.dd1689fb.js.map",
     "787.44100c22.chunk.js.map": "/philosoflip/static/js/787.44100c22.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.27edd7a6.css",
+    "static/css/main.5b1cdffd.css",
     "static/js/main.dd1689fb.js"
   ]
 }
