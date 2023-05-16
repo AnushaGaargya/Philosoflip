@@ -11,19 +11,20 @@ html, body{
 /* these styles of body will only align horizontally. for vertical alignment, 
 use the above html,body height */
 body{
-
+  background-color: black;
+  background-Image: url("/Users/anusha/Desktop/Projects//fun-memory-game/public/img/dio.png");
   font-family: 'Deutsch Gothic', arial;
   font-size: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-Image: url("/Users/anusha/Desktop/Projects//fun-memory-game/public/img/cover1.png")
+  
 }
 
 h1{
   text-align: center;
   margin-bottom: 0.5em; 
-  color:   rgb(240, 237, 227)
+  color:   rgb(178, 140, 12)
 }
 .container{
   height: 700px;

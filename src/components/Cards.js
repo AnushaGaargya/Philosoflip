@@ -1,6 +1,7 @@
 import { toBeChecked } from "@testing-library/jest-dom/dist/matchers";
 import { useState } from "react";
 import Card from './Card';
+import React from "react";
 
 function Cards(){
     const [items,setItems] = useState([
@@ -31,9 +32,6 @@ function Cards(){
         items[prev].stat = "correct"
         setItems([...items])
         setPrev(-1)
-    
-
-
     
     }else{
         items[current].stat = "wrong"
